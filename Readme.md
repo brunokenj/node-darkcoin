@@ -4,7 +4,7 @@ node-ethcoin is a simple wrapper for the geth client's JSON-RPC API.
 
 ## Install
 
-`npm install ...`
+`npm install node-eth-rpc`
 
 ## Examples
 
@@ -82,3 +82,6 @@ If your using a self signed certificate generated with something like
 
 then `sslStrict` should be set to `false` because by defult node wont work with 
 untrusted certificates. 
+
+## Forked
+forked from doomhz/node-darkcoin

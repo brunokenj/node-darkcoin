@@ -1,10 +1,12 @@
 {
   "name": "node-eth-rpc",
   "description": "Communicate with Geth via JSON-RPC",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "lib/index.js",
   "keywords": [
     "ethereum",
+    "geth",
+    "eth",
     "rpc"
   ],
   "author": "Bruno Kenj <bruno.kenj@gmail.com>",
