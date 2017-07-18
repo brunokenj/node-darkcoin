@@ -18,3 +18,8 @@ client.cmd('eth_accounts', function(err, accounts){
   });
 
 });
+
+client.cmd('personal_listAccounts', function(err, accounts){
+  if (err) return console.log(err);
+  console.log('personal_listAccounts accounts:', accounts);
+});
