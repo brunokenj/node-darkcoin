@@ -1,20 +1,20 @@
 # node-darkcoin
 
-node-darkcoin is a simple wrapper for the darkcoin client's JSON-RPC API.
+node-ethcoin is a simple wrapper for the geth client's JSON-RPC API.
 
 ## Install
 
-`npm install node-darkcoin`
+`npm install ...`
 
 ## Examples
 
 ### Create client
 ```js
-var client = new darkcoin.Client({
+var client = new ethcoin.Client({
   host: 'localhost',
-  port: 15715,
-  user: 'username',
-  pass: 'password'
+  port: 8545,
+  user: '',
+  pass: ''
 });
 ```
 
