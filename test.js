@@ -23,3 +23,9 @@ client.cmd('personal_listAccounts', function(err, accounts){
   if (err) return console.log(err);
   console.log('personal_listAccounts accounts:', accounts);
 });
+
+client.cmd('personal_newAccount', 'passwordWallet', function(err, wallet){
+  if (err) return console.log(err);
+  console.log('New Wallet:', wallet);
+});
+

@@ -18,18 +18,18 @@ var client = new ethcoin.Client({
 });
 ```
 
-### Get balance across all accounts with minimum confirmations of 6
+### Get all accounts
 
 ```js
-client.getBalance('*', 6, function(err, balance) {
+client.cmd('personal_listAccounts', function(err, accounts){
   if (err) return console.log(err);
-  console.log('Balance:', balance);
+  console.log('personal_listAccounts:', accounts);
 });
 ```
 ### Getting the balance directly using `cmd`
 
 ```js
-client.cmd('getbalance', '*', 6, function(err, balance){
+client.cmd('eth_getBalance', 'accountAddress', 'latest', function(err, balance){
   if (err) return console.log(err);
   console.log('Balance:', balance);
 });
