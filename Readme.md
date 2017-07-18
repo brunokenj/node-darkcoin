@@ -1,4 +1,4 @@
-# node-darkcoin
+# node-ethcoin
 
 node-ethcoin is a simple wrapper for the geth client's JSON-RPC API.
 
