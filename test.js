@@ -8,8 +8,13 @@ var client = new ethcoin.Client({
   pass: ''
 });
 
-client.cmd('eth_accounts', '*', 6, function(err, balance){
+client.cmd('eth_accounts', function(err, accounts){
   if (err) return console.log(err);
-  console.log('Balance:', balance);
-});
+  console.log('Accounts:', accounts);
 
+  client.cmd('eth_getBalance', accounts[0], 'latest', function(err, balance){
+    if (err) return console.log(err);
+    console.log('Balance:', balance);
+  });
+
+});
