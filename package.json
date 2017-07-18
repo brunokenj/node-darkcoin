@@ -1,19 +1,19 @@
 {
-  "name": "node-darkcoin",
-  "description": "Communicate with darkcoind via JSON-RPC",
-  "version": "1.0.3",
+  "name": "node-eth-rpc",
+  "description": "Communicate with Geth via JSON-RPC",
+  "version": "0.0.1",
   "main": "lib/index.js",
   "keywords": [
-    "darkcoin",
+    "ethereum",
     "rpc"
   ],
-  "author": "Dumitru Glavan <contact@dumitruglavan.com>",
+  "author": "Bruno Kenj <bruno.kenj@gmail.com>",
   "dependencies": {
     "deprecate": "~0.1.0"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/doomhz/node-darkcoin.git"
+    "url": "git://github.com/brunokenj/node-darkcoin"
   },
   "engines": {
     "node": ">= 0.8.0"
