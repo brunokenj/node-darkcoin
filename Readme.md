@@ -1,6 +1,6 @@
 # node-ethcoin
 
-node-ethcoin is a simple wrapper for the geth client's JSON-RPC API.
+node-ethcoin is a simple wrapper for the geth client's JSON-RPC API. V 0.0.4
 
 ## Install
 
@@ -15,6 +15,15 @@ var client = new ethcoin.Client({
   port: 8545,
   user: '',
   pass: ''
+});
+```
+
+### Create client for 
+```js
+var client = new ethcoin.Client({
+  host: 'mainnet.infura.io',
+  port: 443,
+  path: '/v3/:projectId'
 });
 ```
 

@@ -1,7 +1,7 @@
 {
   "name": "node-eth-rpc",
   "description": "Communicate with Geth via JSON-RPC",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "lib/index.js",
   "keywords": [
     "ethereum",
